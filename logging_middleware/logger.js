@@ -13,13 +13,14 @@ async function Log(stack, level, packageName, message) {
             },
             {
                 headers: {
-                    Authorization: `Bearer ${TOKEN}`,
+                    Authorization: `Bearer ${TOKEN.trim()}`,
                     "Content-Type": "application/json"
                 }
             }
         );
 
-        console.log("Log created:", response.data);
+        console.log("Log created"); 
+        console.log(response.data);
 
     } catch (error) {
         console.log("Logging failed");
