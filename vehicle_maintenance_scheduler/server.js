@@ -12,6 +12,7 @@ app.use(express.json());
 const PORT = 3000;
 
 const TOKEN = process.env.TOKEN;
+console.log(TOKEN);
 
 app.get("/schedule", async (req, res) => {
 
@@ -21,7 +22,7 @@ app.get("/schedule", async (req, res) => {
             "http://4.224.186.213/evaluation-service/depots",
             {
                 headers: {
-                    Authorization: `Bearer ${TOKEN}`
+                    Authorization: `Bearer ${TOKEN.trim()}`
                 }
             }
         );
@@ -30,7 +31,7 @@ app.get("/schedule", async (req, res) => {
             "http://4.224.186.213/evaluation-service/vehicles",
             {
                 headers: {
-                    Authorization: `Bearer ${TOKEN}`
+                    Authorization: `Bearer ${TOKEN.trim()}`
                 }
             }
         );
