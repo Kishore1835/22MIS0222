@@ -4,7 +4,7 @@ const TOKEN = process.env.TOKEN;
 async function Log(stack, level, packageName, message) {
     try {
         const response = await axios.post(
-            "http://20.224.186.213/evaluation-service/logs",
+            "http://4.224.186.213/evaluation-service/logs",
             {
                 stack: stack,
                 level: level,
