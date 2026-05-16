@@ -1,0 +1,400 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Kishore> dir
+
+
+    Directory: C:\Users\Kishore
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        25-09-2024  06:48 AM                .anaconda
+d-----        07-11-2025  04:33 PM                .android
+d-----        02-09-2025  11:43 PM                .arduinoIDE
+d-----        25-09-2024  12:58 AM                .astropy
+d-----        06-11-2025  01:05 AM                .cache
+d-----        25-09-2024  01:31 AM                .conda
+d-----        06-11-2025  12:30 AM                .config
+d-----        25-09-2024  06:48 AM                .continuum
+d-----        23-02-2026  09:53 AM                .copilot
+d-----        08-03-2025  11:48 PM                .EasyOCR
+d-----        13-04-2026  03:22 PM                .gk
+d-----        04-11-2025  02:27 PM                .gradle
+d-----        23-01-2025  07:27 AM                .ipython
+d-----        29-03-2025  11:10 PM                .keras
+d-----        23-10-2024  07:40 PM                .m2
+d-----        23-01-2025  07:30 AM                .matplotlib
+d-----        14-10-2024  01:03 PM                .ms-ad
+d-----        25-09-2024  08:49 PM                .nbi
+d-----        23-10-2024  07:05 PM                .redhat
+d-----        23-01-2025  07:11 AM                .rest-client
+d-----        04-09-2025  10:15 PM                .skiko
+d-----        23-02-2026  09:59 AM                .sonarlint
+d-----        08-04-2025  11:09 AM                .ssh
+d-----        29-09-2024  03:59 PM                .streamlit
+d-----        23-10-2024  07:17 PM                .sts4
+d-----        25-09-2024  09:24 PM                .vscode
+d-----        23-01-2026  11:16 PM                .zenmap
+d-----        16-05-2026  04:03 PM                22MIS0222
+d-----        03-11-2025  11:53 AM                AndroidStudioProjects
+d-----        25-09-2024  02:48 PM                ansel
+d-----        24-06-2025  07:41 PM                assist-me-now
+d-----        10-11-2025  08:53 AM                Cisco Packet Tracer
+                                                  8.2.2
+d-r---        30-12-2024  12:15 PM                Contacts
+d-----        12-11-2025  09:58 PM                CrossDevice
+d-r---        16-05-2026  04:09 PM                Desktop
+d-r---        09-05-2026  05:52 PM                Documents
+d-r---        08-05-2026  05:18 PM                Downloads
+d-r---        30-12-2024  12:15 PM                Favorites
+d-----        18-02-2026  10:37 AM                IdeaProjects
+d-r---        30-12-2024  12:15 PM                Links
+d-r---        30-12-2024  12:15 PM                Music
+d-----        04-11-2025  02:34 PM                New Folder
+dar---        07-03-2026  11:32 AM                OneDrive
+dar---        07-03-2026  10:37 AM                OneDrive - vit.ac.in
+d-r---        07-04-2026  11:18 PM                Pictures
+d-----        16-05-2026  03:58 PM                Postman
+d-r---        30-12-2024  12:15 PM                Saved Games
+d-r---        30-12-2024  12:15 PM                Searches
+d-r---        29-04-2026  09:50 PM                Videos
+d-----        02-04-2025  12:08 PM                vscode-remote-wsl
+d-----        07-03-2025  04:12 PM                wekafiles
+d-----        07-03-2025  07:49 PM                yolov5
+-a----        07-03-2025  07:31 PM             14 .bash_history
+-a----        25-09-2024  06:49 AM             25 .condarc
+-a----        04-09-2025  09:55 PM             16 .emulator_console_auth_t
+                                                  oken
+-a----        10-03-2026  11:28 AM             34 .gitconfig
+-a----        08-03-2025  09:13 PM            925 .labelImgSettings.pkl
+-a----        29-09-2024  04:17 PM             62 .node_repl_history
+-a----        10-11-2025  08:10 AM            180 .packettracer
+-a----        10-04-2026  11:31 PM            233 10.129.129.52
+-a----        02-11-2025  11:13 AM     1335628804 java_error_in_studio.hpr
+                                                  of
+-a----        30-10-2025  12:39 PM             86 package-lock.json
+-a----        10-04-2026  11:32 PM            482 scan_result.txt
+
+
+PS C:\Users\Kishore> cd 22MIS0222
+PS C:\Users\Kishore\22MIS0222> dir
+
+
+    Directory: C:\Users\Kishore\22MIS0222
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-05-2026  04:03 PM                .postman
+d-----        16-05-2026  03:38 PM                logging_middleware
+d-----        16-05-2026  03:53 PM                notification_app_be
+d-----        16-05-2026  04:03 PM                postman
+d-----        16-05-2026  03:54 PM                vehicle_maintenance_sche
+                                                  duler
+-a----        16-05-2026  03:46 PM              0 .gitignore
+-a----        16-05-2026  03:46 PM              0 notification_system_desi
+                                                  gn.md
+-a----        16-05-2026  03:37 PM             11 README.md
+
+
+PS C:\Users\Kishore\22MIS0222> cd logging_middleware
+PS C:\Users\Kishore\22MIS0222\logging_middleware> npm init -y
+Wrote to C:\Users\Kishore\22MIS0222\logging_middleware\package.json:
+
+{
+  "name": "logging_middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+PS C:\Users\Kishore\22MIS0222\logging_middleware> npm install axios dotenv
+
+added 28 packages, and audited 29 packages in 4s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Kishore\22MIS0222\logging_middleware> node test.js
+node:internal/modules/cjs/loader:1228
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\Kishore\22MIS0222\logging_middleware\test.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Module._load (node:internal/modules/cjs/loader:1051:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.17.0
+PS C:\Users\Kishore\22MIS0222\logging_middleware> dir
+
+
+    Directory: C:\Users\Kishore\22MIS0222\logging_middleware
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-05-2026  04:16 PM                node_modules
+-a----        16-05-2026  03:38 PM              0 .gitkeep
+-a----        16-05-2026  04:16 PM          12379 package-lock.json
+-a----        16-05-2026  04:16 PM            305 package.json
+
+
+PS C:\Users\Kishore\22MIS0222\logging_middleware> dir
+
+
+    Directory: C:\Users\Kishore\22MIS0222\logging_middleware
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-05-2026  04:16 PM                node_modules
+-a----        16-05-2026  04:32 PM            791 .env
+-a----        16-05-2026  03:38 PM              0 .gitkeep
+-a----        16-05-2026  04:32 PM            941 logger.js
+-a----        16-05-2026  04:16 PM          12379 package-lock.json
+-a----        16-05-2026  04:16 PM            305 package.json
+-a----        16-05-2026  04:32 PM            122 test.js
+
+
+PS C:\Users\Kishore\22MIS0222\logging_middleware> node test.js
+◇ injected env (1) from .env // tip: ⌘ enable debugging { debug: true }
+Logging failed
+{ message: 'invalid authorization token' }
+PS C:\Users\Kishore\22MIS0222\logging_middleware> node test.js
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Logging failed
+{ message: 'invalid authorization token' }
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1019 bytes | 59.00 KiB/s, done.
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+   39b1470..6bffa05  main       -> origin/main
+Updating 39b1470..6bffa05
+Fast-forward
+ logging_middleware/logger.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Kishore\22MIS0222\logging_middleware> node test.js
+◇ injected env (1) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Logging failed
+connect ETIMEDOUT 20.224.186.213:80
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1005 bytes | 100.00 KiB/s, done.
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+   6bffa05..4fed596  main       -> origin/main
+Updating 6bffa05..4fed596
+Fast-forward
+ logging_middleware/logger.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Kishore\22MIS0222\logging_middleware> node test.js
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Logging failed
+{ message: 'invalid authorization token' }
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 835 bytes | 167.00 KiB/s, done.
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+   4fed596..392cf27  main       -> origin/main
+Updating 4fed596..392cf27
+Fast-forward
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Kishore\22MIS0222\logging_middleware> git pull origin main
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Kishore\22MIS0222\logging_middleware> node test.js
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Logging failed
+{ message: 'invalid authorization token' }
+PS C:\Users\Kishore\22MIS0222\logging_middleware> cd..
+PS C:\Users\Kishore\22MIS0222> dir
+
+
+    Directory: C:\Users\Kishore\22MIS0222
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-05-2026  04:03 PM                .postman
+d-----        16-05-2026  04:49 PM                logging_middleware
+d-----        16-05-2026  03:53 PM                notification_app_be
+d-----        16-05-2026  04:03 PM                postman
+d-----        16-05-2026  03:54 PM                vehicle_maintenance_sche
+                                                  duler
+-a----        16-05-2026  03:46 PM              0 .gitignore
+-a----        16-05-2026  03:46 PM              0 notification_system_desi
+                                                  gn.md
+-a----        16-05-2026  03:37 PM             11 README.md
+
+
+PS C:\Users\Kishore\22MIS0222> cd vehicle_maintenance_scheduler
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> npm init -y
+Wrote to C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler\package.json:
+
+{
+  "name": "vehicle_maintenance_scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> npm install express axios cors dotenv
+
+added 82 packages, and audited 83 packages in 5s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> git pull origin main
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 29 (delta 14), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (29/29), 9.20 KiB | 99.00 KiB/s, done.
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+   6c115b9..5c4924d  main       -> origin/main
+Updating 6c115b9..5c4924d
+Fast-forward
+ vehicle_maintenance_scheduler/.env         |  1 +
+ vehicle_maintenance_scheduler/logger.js    | 37 +++++++++++++++
+ vehicle_maintenance_scheduler/scheduler.js | 20 ++++++++
+ vehicle_maintenance_scheduler/server.js    | 73 ++++++++++++++++++++++++++++++
+ 4 files changed, 131 insertions(+)
+ create mode 100644 vehicle_maintenance_scheduler/.env
+ create mode 100644 vehicle_maintenance_scheduler/logger.js
+ create mode 100644 vehicle_maintenance_scheduler/scheduler.js
+ create mode 100644 vehicle_maintenance_scheduler/server.js
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> dir
+
+
+    Directory: C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-05-2026  04:55 PM                node_modules
+-a----        16-05-2026  05:08 PM            789 .env
+-a----        16-05-2026  05:08 PM            972 logger.js
+-a----        16-05-2026  04:55 PM          36588 package-lock.json
+-a----        16-05-2026  04:55 PM            363 package.json
+-a----        16-05-2026  03:54 PM             31 README.md
+-a----        16-05-2026  05:08 PM            473 scheduler.js
+-a----        16-05-2026  05:08 PM           1726 server.js
+
+
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> node server.js
+
+◇ injected env (1) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Server running on port 3000
+Request failed with status code 401
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> git pull origin main
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 8 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (8/8), 2.20 KiB | 83.00 KiB/s, done.
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+   5c4924d..571312b  main       -> origin/main
+Updating 5c4924d..571312b
+Fast-forward
+ vehicle_maintenance_scheduler/scheduler.js | 46 ++++++++++++++++++------------
+ vehicle_maintenance_scheduler/server.js    |  6 ++--
+ 2 files changed, 31 insertions(+), 21 deletions(-)
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> node server.js
+◇ injected env (1) from .env // tip: ⌘ suppress logs { quiet: true }
+Server running on port 3000
+Request failed with status code 404
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> git pull origin main
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1020 bytes | 63.00 KiB/s, done.
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+   571312b..0de9b6d  main       -> origin/main
+Updating 571312b..0de9b6d
+Fast-forward
+ vehicle_maintenance_scheduler/server.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> node server.js
+◇ injected env (1) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Server running on port 3000
+Request failed with status code 401
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> git pull origin main
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 1.01 KiB | 61.00 KiB/s, done.
+From https://github.com/Kishore1835/22MIS0222
+ * branch            main       -> FETCH_HEAD
+   0de9b6d..2d75fcb  main       -> origin/main
+Updating 0de9b6d..2d75fcb
+Fast-forward
+ vehicle_maintenance_scheduler/server.js | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler> node server.js
+◇ injected env (1) from .env // tip: ⌘ enable debugging { debug: true }
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJraXNob3Jla3VtYXIudjIwMjJhQHZpdHN0dWRlbnQuYWMuaW4iLCJleHAiOjE3Nzg5MzEwNjQsImlhdCI6MTc3ODkzMDE2NCwiaXNzIjoiQWZmb3JkIE1lZGljYWwgVGVjaG5vbG9naWVzIFByaXZhdGUgTGltaXRlZCIsImp0aSI6ImFmNTcwY2JkLTFkNjYtNDY4MC1iYTEyLWNmMGNjMjRhNDliYSIsImxvY2FsZSI6ImVuLUlOIiwibmFtZSI6Imtpc2hvcmVrdW1hciB2Iiwic3ViIjoiZjE3ZDgyY2MtZmU4Ny00MjY0LWI3YzYtMTJjMTNlMDJlZTZmIn0sImVtYWlsIjoia2lzaG9yZWt1bWFyLnYyMDIyYUB2aXRzdHVkZW50LmFjLmluIiwibmFtZSI6Imtpc2hvcmVrdW1hciB2Iiwicm9sbE5vIjoiMjJtaXMwMjIyIiwiYWNjZXNzQ29kZSI6IlNmRnVXZyIsImNsaWVudElEIjoiZjE3ZDgyY2MtZmU4Ny00MjY0LWI3YzYtMTJjMTNlMDJlZTZmIiwiY2xpZW50U2VjcmV0IjoiWlNRQmhZQmp5YldhWW5GRyJ9.381HDFQNqQH_BfB_TuHAjXxlZv9NQ3MvHiDR-84JUN8
+Server running on port 3000
+Request failed with status code 401
+PS C:\Users\Kishore\22MIS0222\vehicle_maintenance_scheduler>
