@@ -18,7 +18,7 @@ app.get("/schedule", async (req, res) => {
     try {
 
         const depotResponse = await axios.get(
-            "http://4.224.186.213/evaluation-service/depots",
+            "http://4.224.186.213/evaluation-service/depot",
             {
                 headers: {
                     Authorization: `Bearer ${TOKEN}`
@@ -51,8 +51,8 @@ app.get("/schedule", async (req, res) => {
                 depotId: depot.ID,
                 mechanicHours: depot.MechanicHours,
                 selectedTasks: optimized.selected,
-                totalimpact: optimized.totalimpact,
-                totalhours: optimized.totalhours
+                totalImpact: optimized.totalImpact,
+                totalHours: optimized.totalHours
             });
         }
 
