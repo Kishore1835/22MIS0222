@@ -1,8 +1,6 @@
 require("dotenv").config();
 const axios = require("axios");
-
 const TOKEN = process.env.TOKEN;
-
 async function Log(stack, level, packageName, message) {
     try {
         const response = await axios.post(
@@ -21,10 +19,10 @@ async function Log(stack, level, packageName, message) {
             }
         );
 
-        console.log("Log Created:", response.data);
+        console.log("Log created:", response.data);
 
     } catch (error) {
-        console.log("Logging Failed");
+        console.log("Logging failed");
 
         if (error.response) {
             console.log(error.response.data);
